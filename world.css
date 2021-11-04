@@ -1,1 +1,96 @@
-/* Add your own styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body, th, td {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
+}
+
+header {
+    padding: 40px;
+    background: rgb(54, 86, 128); 
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin: 60px auto;
+    display: block;
+}
+
+#controls {
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 35% 65%;
+    margin: 0 40px;
+    justify-content: center;
+}
+
+#controls input {
+    border-radius: 5px;
+    background: rgb(236, 236, 236);
+    border: none;
+    padding: 10px 20px;
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn-group button {
+    margin: 0 10px;
+    height: fit-content;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: rgb(27, 75, 114);
+}
+
+.btn-group button.other {
+    background: rgb(67, 124, 172);
+}
+
+
+
+.table-container {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+.table-container table {
+    border: solid .5px rgb(209, 209, 209);
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: solid .5px rgb(209, 209, 209);
+    border-top: solid .5px rgb(209, 209, 209);
+    padding: 8px;
+}
+
+th {
+    font-size: 16px;
+    color: white;
+}
+
+thead {
+    background:rgb(46, 67, 112);
+}
+
+tbody tr:nth-child(odd) {
+    background: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(246, 248, 255);
+}

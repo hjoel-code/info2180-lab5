@@ -10,7 +10,7 @@
 
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-		
+
 		<!-- you write this -->
 		<script defer src="world.js" type="text/javascript"></script>
 	
@@ -24,14 +24,21 @@
 
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
+				<div class="btn-group">
+					<button id="lookup-country">Lookup Countries</button>
+					<button class="other" id="lookup-city">Lookup Cities</button>
+				</div>
 			</div>
 			
-			<div id="result">
-				<!-- countries will appear here -->
+			<div class="table-container">
+				<table id="result">
+				</table>
 			</div>
+
+			
+			
+			
 		</main>
 
 	</body>
