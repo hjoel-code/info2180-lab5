@@ -94,3 +94,8 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background: rgb(246, 248, 255);
 }
+
+#message {
+    font-size: 14px;
+    text-align: center;
+}
